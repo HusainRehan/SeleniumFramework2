@@ -4,6 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sel</groupId>
 	<artifactId>SeleniumStepByStep</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<!--
@@ -39,11 +40,6 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>5.1.2</version>
-		</dependency>
-		<dependency>
-			<groupId>com.QAFoX</groupId>
-			<artifactId>LiveAutomationProjects</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
