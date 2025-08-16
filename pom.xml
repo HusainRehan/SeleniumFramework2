@@ -4,7 +4,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sel</groupId>
 	<artifactId>SeleniumStepByStep</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<!--
@@ -71,4 +70,5 @@
     <version>2.0.4</version>
 </dependency>
 	</dependencies>
+	<version>1.0</version>
 </project>
