@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  LoginTest</title>
+<title>TestNG:  LoginTests</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>LoginTest</h2><table border='1' align="center">
+<h2 align='center'>LoginTests</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 15 13:10:35 IST 2025</td>
+<td>Started on:</td><td>Fri Aug 15 13:13:34 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (47 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9240 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,23 +76,26 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginTest.testLogin()'><b>testLogin</b><br>Test class: tests.LoginTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;username&apos; is required by @Test on method testLogin but has not been marked @Optional or defined
-in D:\NewProj\testNG.xml
+<td title='tests.LoginTest.testLogin()'><b>testLogin</b><br>Test class: tests.LoginTest<br>Parameters: user1, pass1</td>
+<td><div><pre>java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [nopCommerce demo store. Login]
+	at tests.LoginTest.testLogin(LoginTest.java:71)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2024415090", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2024415090'><pre>org.testng.TestNGException: 
-Parameter &apos;username&apos; is required by @Test on method testLogin but has not been marked @Optional or defined
-in D:\NewProj\testNG.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace447320069", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace447320069'><pre>java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [nopCommerce demo store. Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at tests.LoginTest.testLogin(LoginTest.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -114,7 +117,7 @@ in D:\NewProj\testNG.xml
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>tests.LoginTest@49438269</td></tr>
+<td>tests.LoginTest@55fe41ea</td></tr>
 </table><p>
 </body>
 </html>
