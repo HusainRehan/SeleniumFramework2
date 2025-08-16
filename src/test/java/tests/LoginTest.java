@@ -79,7 +79,7 @@ public class LoginTest extends BaseTest{
 	@Test
 	public void loginTestWithInvalid() {
 		
-		test = ExtentReportManager.createTest("LoginTest");
+		test = ExtentReportManager.createTest("LoginTestFailure");
 		
 		test.info("navigating to url");
 		LoginPage loginPage = new LoginPage(driver);
